@@ -18,15 +18,15 @@ body {
 .registration h1 {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 16px;
-    padding-bottom: 17px;
+    padding-top: 14px;
+    padding-bottom: 16px;
     font-size: 20px;
     font-weight: normal;
     line-height: 23px;
     color: #244a73;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #e5e5e5;
+    border-bottom-color: #e9eaec;
 }
 
 .project-info {
@@ -34,7 +34,7 @@ body {
     align-items: flex-start;
     column-gap: 10px;
     padding-top: 15px;
-    padding-bottom: 21px;
+    padding-bottom: 17px;
 }
 
 .project-info img {
@@ -52,7 +52,7 @@ body {
 }
 
 .form-section {
-    margin-bottom: 22px;
+    margin-bottom: 21px;
 }
 
 .form-section h2 {
@@ -65,13 +65,13 @@ body {
     color: #5a7594;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #e5e5e5;
+    border-bottom-color: #e9eaec;
 }
 
 .form-row {
     display: flex;
     align-items: center;
-    min-height: 34px;
+    min-height: 33px;
 }
 
 .form-row label {
@@ -111,7 +111,7 @@ body {
 }
 
 .form-actions {
-    margin-top: 34px;
+    margin-top: 33px;
     margin-left: 32px;
 }
 
@@ -151,6 +151,21 @@ body {
     margin-right: -5px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+@media screen and (min-width: 480px) {
+    .registration h1 {
+        padding-top: 17px;
+        padding-bottom: 15px;
+    }
+
+    .registration-form > .form-section:first-child {
+        margin-bottom: 22px;
+    }
+
+    #education-heading {
+        padding-bottom: 15px;
+    }
 }
 
 @media screen and (max-width: 479px) {
