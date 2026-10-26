@@ -1,0 +1,154 @@
+
+body {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #666666;
+    background-color: #ffffff;
+}
+
+.registration {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.registration h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 23px;
+    color: #244a73;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e5e5e5;
+}
+
+.project-info {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 21px;
+}
+
+.project-info img {
+    flex-shrink: 0;
+    margin-top: 3px;
+}
+
+.project-info p {
+    max-width: 690px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+
+.form-section {
+    margin-bottom: 22px;
+}
+
+.form-section h2 {
+    margin-top: 0;
+    margin-bottom: 11px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+    color: #5a7594;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e5e5e5;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    min-height: 34px;
+}
+
+.form-row label {
+    flex-shrink: 0;
+    width: 64px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.form-row input,
+.form-row select {
+    box-sizing: border-box;
+    width: 157px;
+    height: 24px;
+    padding-left: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+.form-hint {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.city-hint {
+    margin-top: 0;
+    margin-bottom: 18px;
+    margin-left: 74px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.form-actions {
+    margin-top: 34px;
+    margin-left: 33px;
+}
+
+.form-actions button {
+    box-sizing: border-box;
+    width: 199px;
+    height: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #222222;
+    background-color: #eeeeee;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #999999;
+    cursor: pointer;
+}
+
+.registration-agreement {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.registration-agreement a {
+    color: #244a73;
+    text-decoration: none;
+}
+
+.registration-agreement a:hover {
+    text-decoration: underline;
+}
+
+.registration h1,
+.form-section h2 {
+    margin-left: -5px;
+    margin-right: -5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
